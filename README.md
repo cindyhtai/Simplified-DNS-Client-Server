@@ -5,7 +5,7 @@ A simplified version of a DNS client and server using UDP sockets.
 1. Read in 3 arguments from the command line:
    - IP address of server (127.0.0.1)
    - Port of server (e.g. 9999)
-   -Hostname (e.g. host1.student.test)
+   - Hostname (e.g. host1.student.test)
 2. Send a request with the specified hostname to the server using the message format specified
 3. Wait for a response using a 1 second timeout period.
    - If a response arrives within the timeout period, print out the server response as shown in
